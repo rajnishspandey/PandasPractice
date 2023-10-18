@@ -1,4 +1,5 @@
 #Create a simple DataFrame with two columns, "Name" and "Age," containing three rows of data.
+##Create a DataFrame from a dictionary where the keys are column names and the values are lists of data.
 import pandas as pd
 
 data = {
