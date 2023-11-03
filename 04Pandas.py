@@ -13,7 +13,7 @@ data = [('Peter', 18, 7),
 df = pd.DataFrame(data, columns=["Name","Ages","Score"])
 print(df)
 
-#using for_records
+#using from_records
 print("for records")
 df = pd.DataFrame.from_records(data,columns=["Name","Ages","Score"])
 print(df)
