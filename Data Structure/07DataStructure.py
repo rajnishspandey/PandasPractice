@@ -14,5 +14,5 @@ data = {
 df = pd.DataFrame(data)
 
 print(df, end="\n\n")
-df["Total"] = df["Price"] + df["Quantity"]
+df["Total"] = df["Price"] * df["Quantity"]
 print(df)
