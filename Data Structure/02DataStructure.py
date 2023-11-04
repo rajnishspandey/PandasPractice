@@ -13,6 +13,3 @@ df = pd.Series(ages,index=names)
 print(df[df>30], end="\n\n") #values
 
 print(df>30) #True or False
-
-
-
