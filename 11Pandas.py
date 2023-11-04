@@ -24,4 +24,25 @@ new_data = { "Ram":"B.Com",
 # combine this new data with existing DataFrame
 df["Qualification"] = df["First_name"].map(new_data)
 
+print(df, end ="\n\n")
+#or using replace
+
+# Create new column using dictionary
+new_data2 = { "Ram":"Shyam",
+            "Tina":"Riya",
+            "Jeetu":"Jitender" }
+
+df = df.replace({"First_name":new_data2})
+print(df, end ="\n\n")
+
+
+#or using update
+# Create new column using dictionary
+new_data3 = { 0:"Shyam",
+            1:"Riya",
+            2:"Jitender" }
+ 
+# combine this new data with existing DataFrame
+df["First_name"].update(pd.Series(new_data3))
 print(df)
+
