@@ -1,6 +1,7 @@
-#Create a Pandas Series with the following data: [5, 10, 15, 20, 25] and an index of your choice. 
-#Find the sum of the values in the Series.
-
+"""
+Create a Pandas Series with the following data: [5, 10, 15, 20, 25] and an index of your choice. 
+Find the sum of the values in the Series.
+"""
 import pandas as pd
 
 data = [5, 10, 15, 20, 25]
