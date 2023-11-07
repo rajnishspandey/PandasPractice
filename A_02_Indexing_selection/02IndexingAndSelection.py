@@ -4,5 +4,3 @@ Select and display the revenue for a specific product on a particular date using
 """
 
 import pandas as pd
-
-testing
