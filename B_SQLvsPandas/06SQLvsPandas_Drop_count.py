@@ -21,3 +21,26 @@ print(dropped, end="\n\n")
 #drop row -  all duplicate key columns
 dropped = student.drop_duplicates(subset=["ID"])
 print(dropped, end="\n\n")
+
+#add single column
+
+student["test"] = [1,2,3,1]
+
+print(student, end="\n\n")
+
+#rename single column
+# student.rename(columns={"test":"Test"}, inplace=True)
+# print(student, end="\n\n")
+
+#rename mutli column
+student.rename(columns={"test":"Test", "Rank":"Rankers"}, inplace=True)
+print(student, end="\n\n")
+
+#drop single column
+# student.drop(["Test"], axis=1, inplace=True)
+# print(student, end="\n\n")
+
+# drop multi column
+student.drop(["Test","ID"], axis=1, inplace=True)
+print(student, end="\n\n")
+
