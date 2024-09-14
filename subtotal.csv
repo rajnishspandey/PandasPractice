@@ -1,0 +1,16 @@
+Region,Brands,Salesperson,Sales
+North,Yamaha,Joseph,24890.0
+East,Honda,Annie,30000.0
+North,Suzuki,Annie,22650.0
+North,Suzuki,Robert,22650.0
+Middle,Yamaha,Robert,24890.0
+North,Honda,Joseph,30000.0
+Middle,Suzuki,Jenny,22650.0
+,Kawasaki,,26999.0
+East,,Annie,24890.0
+North,Yamaha,Robin,
+East,Kawasaki,Robert,26999.0
+East,Yamaha,Joseph,24890.0
+North,Suzuki,,22650.0
+,Kawasaki,Joseph,26999.0
+East,Honda,Robin,30000.0
